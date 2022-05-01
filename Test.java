@@ -49,7 +49,7 @@ enum ItemAttributes {
 }
 
 enum ItemAbilityTriggers {
-    USER_DEFINED,
+    USER,
     PASSIVE;
 }
 
