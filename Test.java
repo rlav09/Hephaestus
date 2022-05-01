@@ -103,7 +103,10 @@ class DianaShortbow implements CustomItem {
     public ShapedRecipe getRecipe() {
         return new ShapedRecipe(
                 new NamespacedKey(Hephaestus.getPlugin(), "unique_plugin_key"),
-                new ItemStack(this.getItem())).shape("A", "", "");
+                new ItemStack(this.getItem())).shape("CAC", "ADA", "CAC")
+                .setIngredient('C', Material.IRON_INGOT)
+                .setIngredient('A', Material.STICK)
+                .setIngredient('D', Material.DIAMOND_BLOCK);
     }
 
     @Override
